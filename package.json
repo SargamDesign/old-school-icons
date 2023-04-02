@@ -4,7 +4,10 @@
   "description": "A collection of fill icons.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf outline solid package *.tgz",
+    "export": "figma-export use-config figma.config.js",
+    "test": "node test.js",
+    "build": "run-s clean export"
   },
   "homepage": "https://github.com/SargamDesign/old-school-icons#readme",
   "repository": {
@@ -19,9 +22,21 @@
     "fill",
     "classic",
     "collection",
-    "icon",
-    "set"
+    "icon-set",
+    "icon"
+  ],
+  "files": [
+    "icons/"
   ],
   "author": "Abhimanyu Rana",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@figma-export/cli": "^4.5.0",
+    "@figma-export/output-components-as-svg": "^4.5.0",
+    "@figma-export/transform-svg-with-svgo": "^4.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^4.4.1"
+  }
 }
