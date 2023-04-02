@@ -1,0 +1,27 @@
+{
+  "name": "@sargamdesign/old-school-icons",
+  "version": "0.0.0",
+  "description": "A collection of fill icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/SargamDesign/old-school-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SargamDesign/old-school-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SargamDesign/old-school-icons/issues"
+  },
+  "keywords": [
+    "icons",
+    "fill",
+    "classic",
+    "collection",
+    "icon",
+    "set"
+  ],
+  "author": "Abhimanyu Rana",
+  "license": "MIT"
+}
